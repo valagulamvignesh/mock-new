@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" href="fontawesome\css\all.css">
+	<style>
+		#main-nav
+		{
+			 background-color:blue;
+         /*height:70px;*/
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+
+         
+
+		}
+		#main-nav #nav-items a
+		{
+			color: white;
+		text-decoration: none;
+		/*margin: 20px;*/
+		padding-left:  5px;
+		
+         
+		}
+		*
+		{
+			margin: 0px;
+			margin-right: 0px;
+		}
+		section
+		{
+			background-color:black;
+			width: 100%;
+			height: 400px;
+
+		}
+		section #abc table
+		{
+			color: white;
+			font-size: 20px;
+			margin-left: 100px;
+
+
+			
+		}
+		section #xyz #xyz-1
+		{
+			color: white;
+			margin-left:100px;
+			margin-top: 50px;
+
+
+		}
+		input[type='text'],input[type="number"]
+			{
+				width: 200px;
+
+			}
+		
+		section #table
+		{
+			margin-left: 70%;
+			margin-top: -250px;
+			
+		}
+		section #table #tab
+		{
+			background-color: brown;
+			padding: 30px;
+			border-radius: 20px;
+
+
+		}
+		/*section #table #tab tr
+		{
+          width: 200px;
+		}
+		*/
+		#main-nav h1
+		{
+			margin-top: 20px;
+		}
+		#second-section
+		{
+			width: 100%;
+			background-color: white;
+			height: 930px;
+
+		}
+		#second-section h1
+		{
+			color: black;
+			text-align: center;
+		}
+		#second-section h2
+		{
+			color: black;
+			text-align: center;
+		}
+		#second-section p
+		{
+			text-align: center;
+			margin-top: 20px;
+		}
+		#table-2,tr,td
+		{
+			width: 70%;
+			margin-top: 20px;
+			border: 2px solid black;
+			margin-left: 200px;
+			
+
+		}
+
+		#table-2 td
+		{
+			text-align: center;
+
+		}
+		#bcd #bcd-1
+
+		{
+			color: white;
+			margin-top: 50px;
+			margin-left: 100px;
+		}
+		footer
+		{
+			background-color: orange;
+			/*width:100%;*/
+			padding:50px;
+			height: 100px;
+
+		}
+		@media (min-width:0px)and (max-width: 750px)
+		{
+			#table-2
+			{
+			margin-left: 40px;
+			}
+			section
+			{
+				height: 650px;
+
+			}
+			#second-section
+			{
+				height: 1300px;
+			}
+			#abc
+			{
+				margin-left: -70px;
+				display: flex;
+			}
+			#main-nav
+			{
+				flex-direction: column;
+				padding: 5px auto;
+			}
+			#main-nav #nav-items
+			{
+				display: flex;
+				flex-direction: column;
+				padding: 2px;
+			}
+			section #table
+			{
+				margin-top: 20px;
+				margin-left: 80px;
+			}
+			
+		 
+
+
+
+		}
+	</style>
+</head>
+<body>
+	
+		<nav id="main-nav">
+			<h1><span style="color: white">iPremium</span> <br>
+				<span style="color: white">INDIA
+			</h1>
+			<div id="nav-items">
+			<a href="#"><span style="color: orange;">HOME</span></a>
+			<a href="#">ABOUT</a>
+			<a href="#">SERVICE</a>
+			<a href="#">GALLERY</a>
+			<a href="#">REPAIR IT</a>
+			<a href="#">SERVICE STATUS</a>
+			<a href="#">FAQ</a>
+			<a href="#">BLOG</a>
+		</div>
+
+		</nav>
+		<section>
+			<div id="abc">
+				<table>
+			<tr>
+				<td><h2>We provide Top Quality Repair</h2></td>
+			</tr>
+			<tr>
+				<td><h2>Services For All Apples Devices.</h2></td>
+			</tr>
+
+			</table>
+			</div>
+			<div id="xyz">
+				<table id="xyz-1">
+					<tr>
+						<td><h3>.Certified Apple Techician</h3></td>
+					</tr>
+					<tr>
+						<td><h3>.Timley</h3></td>
+					</tr>
+					<tr>
+						<td><h3>.Affordable</h3></td>
+					</tr>
+					<tr>
+						<td><h3>.Doorstop Pickup and Delivery</h3></td>
+					</tr>
+
+				</table>
+				
+			</div>
+			<div id="bcd">
+				<table id="bcd-1">
+					<tr>
+						<td><h2>call us at</h2>
+ 						<h3>Hsr layout:<span style="color: red;">4242541544514</span></h3></td>
+
+					</tr>
+					<tr>
+		
+						<td><h3>Electronic city:<span style="color: red;">4242541544514</span></h3></td>
+					</tr>
+				</table>
+			</div>
+			<div id="table">
+				<h1 style="color: white;">Let us Contact You</h1>
+				<table id="tab">
+					<tr>
+						<td class="abc"><input type="text" placeholder="Name"></td>
+					</tr>
+					<tr>
+						<td class="abc"><input type="number" placeholder="Phone"></td>
+					</tr>
+					<tr>
+						<td class="abc"><input type="text" placeholder="Device"></td>
+					</tr>
+					<tr>
+						<td><input type="submit" placeholder="submit"></td>
+					</tr>
+				</table>
+			</div>
+	
+			
+		</section>
+		<section id="second-section">
+			<h1>OUR SERVICES</h1>
+			<h2>iPremium ,Apple Service Center in Banglore</h2>
+			<p>ipremium is your trusted Apple service centere in Banglore ,We provide top quality range of solution and service for all your Apple devices.</p>
+			<p>ipremium is your trusted Apple service centere in Banglore ,We provide top quality range of solution ipremium is your trusted Apple service centere in Banglore ,We provide top quality range of solution and service for all your Apple devices.</p>
+			<p>trusted Apple service centere in Banglore</p>
+			<p>trusted Apple service centere in Banglore ,We provide top quality range of solution and service for all your Apple devices</p>
+			<p>your trusted Apple service centere in Banglore ,We provide top quality range of solution and service for all your Apple devices</p>
+			<p>your trusted Apple service centere in Banglore ,We provide top quality range of solution and service for all your Apple devicesyour trusted Apple service centere in Banglore ,We provide top quality range of solution and service for all your Apple devices</p>
+			<p>Follwing are the trusted Apple service centere in Banglore ,We provide top quality range of solution</p>
+			<div>
+				<table id="table-2">
+					<tr>
+						<td>
+							<img src="https://m.media-amazon.com/images/I/41sGASjc4-L.jpg" height="200px;">
+						</td>
+						<td>
+							<img src="https://m.media-amazon.com/images/I/41sGASjc4-L.jpg" height="200px">
+						</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+					<tr>
+						<td>iPhone screen repair or repalcement</td>
+						<td>MacBook screen repair or repalcement</td>
+					</tr>
+				
+				</table>
+			</div>
+		</section>
+		<footer>
+			
+		</footer>
+	
+
+</body>
+</html>
